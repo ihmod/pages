@@ -18,9 +18,9 @@ time.sleep(2)
 
 # 输入账号--通过html的id属性定位输入位置--改为你的账号
 user_login = driver.find_element('id','user_login')
-user_login.send_keys("xxxx")
+user_login.send_keys("ihmod")
 # 输入密码--通过html的id属性定位输入位置--改为你的密码
-driver.find_element('id','user_password').send_keys("xxxxxx")
+driver.find_element('id','user_password').send_keys("tjx887755")
 # 点击登录按钮--通过xpath确定点击位置
 driver.find_element('xpath',
     '//input[@class="ui fluid orange submit button large"]').click()
